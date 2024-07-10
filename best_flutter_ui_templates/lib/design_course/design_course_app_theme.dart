@@ -19,17 +19,17 @@ class DesignCourseAppTheme {
   static const Color spacer = Color(0xFFF2F2F2);
 
   static const TextTheme textTheme = TextTheme(
-    headline4: display1,
-    headline5: headline,
-    headline6: title,
-    subtitle2: subtitle,
-    bodyText1: body2,
-    bodyText2: body1,
-    caption: caption,
+    headlineLarge: display1,
+    headlineMedium: headline,
+    headlineSmall: title,
+    titleMedium: subtitle,
+    bodyLarge: body1,
+    bodyMedium: body2,
+    bodySmall: caption,
   );
 
   static const TextStyle display1 = TextStyle(
-    // h4 -> display1
+    // headlineLarge -> display1
     fontFamily: 'WorkSans',
     fontWeight: FontWeight.bold,
     fontSize: 36,
@@ -39,7 +39,7 @@ class DesignCourseAppTheme {
   );
 
   static const TextStyle headline = TextStyle(
-    // h5 -> headline
+    // headlineMedium -> headline
     fontFamily: 'WorkSans',
     fontWeight: FontWeight.bold,
     fontSize: 24,
@@ -48,7 +48,7 @@ class DesignCourseAppTheme {
   );
 
   static const TextStyle title = TextStyle(
-    // h6 -> title
+    // headlineSmall -> title
     fontFamily: 'WorkSans',
     fontWeight: FontWeight.bold,
     fontSize: 16,
@@ -57,7 +57,7 @@ class DesignCourseAppTheme {
   );
 
   static const TextStyle subtitle = TextStyle(
-    // subtitle2 -> subtitle
+    // titleMedium -> subtitle
     fontFamily: 'WorkSans',
     fontWeight: FontWeight.w400,
     fontSize: 14,
@@ -65,17 +65,8 @@ class DesignCourseAppTheme {
     color: darkText,
   );
 
-  static const TextStyle body2 = TextStyle(
-    // body1 -> body2
-    fontFamily: 'WorkSans',
-    fontWeight: FontWeight.w400,
-    fontSize: 14,
-    letterSpacing: 0.2,
-    color: darkText,
-  );
-
   static const TextStyle body1 = TextStyle(
-    // body2 -> body1
+    // bodyLarge -> body1
     fontFamily: 'WorkSans',
     fontWeight: FontWeight.w400,
     fontSize: 16,
@@ -83,8 +74,17 @@ class DesignCourseAppTheme {
     color: darkText,
   );
 
+  static const TextStyle body2 = TextStyle(
+    // bodyMedium -> body2
+    fontFamily: 'WorkSans',
+    fontWeight: FontWeight.w400,
+    fontSize: 14,
+    letterSpacing: 0.2,
+    color: darkText,
+  );
+
   static const TextStyle caption = TextStyle(
-    // Caption -> caption
+    // bodySmall -> caption
     fontFamily: 'WorkSans',
     fontWeight: FontWeight.w400,
     fontSize: 12,

@@ -21,13 +21,13 @@ class FitnessAppTheme {
   static const String fontName = 'Roboto';
 
   static const TextTheme textTheme = TextTheme(
-    headline4: display1,
-    headline5: headline,
-    headline6: title,
-    subtitle2: subtitle,
-    bodyText2: body2,
-    bodyText1: body1,
-    caption: caption,
+    headlineLarge: display1,
+    headlineMedium: headline,
+    headlineSmall: title,
+    titleMedium: subtitle,
+    bodyLarge: body1,
+    bodyMedium: body2,
+    bodySmall: caption,
   );
 
   static const TextStyle display1 = TextStyle(
@@ -84,6 +84,6 @@ class FitnessAppTheme {
     fontWeight: FontWeight.w400,
     fontSize: 12,
     letterSpacing: 0.2,
-    color: lightText, // was lightText
+    color: lightText,
   );
 }
